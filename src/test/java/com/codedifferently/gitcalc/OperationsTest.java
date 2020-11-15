@@ -46,4 +46,17 @@ public class OperationsTest {
         //Then
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void testDivision() throws Exception {
+        //Given
+        double x = 6.0;
+        double y = 2.0;
+
+        //when
+        double expected = 3.0;
+        double actual = Operations.divide(x, y);
+        //then
+
+        Assert.assertEquals(expected, actual, 0.0);
+    }
 }
