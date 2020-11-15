@@ -39,6 +39,6 @@ public class Operations {
      * @param y
      */
     public static  double divide(double x, double y) {
-        return 0;
+        return x / y;
     }
 }
