@@ -34,9 +34,10 @@ public class Operations {
     }
 
     /**
-     *
-     * @param x
-     * @param y
+     * The divide function
+     * @param x The first operand
+     * @param y The second operand
+     * @return x divided by y
      */
     public static  double divide(double x, double y) {
         return x / y;
